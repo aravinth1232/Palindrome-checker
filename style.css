@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    /* background: linear-gradient(150deg, rgba(45,161,184,1) 50%, rgba(218,100,207,1) 76%, rgba(218,100,207,1) 130%); */
+    background-repeat: no-repeat;
+    background-color: azure;
+   
+}
+
+.all{
+    width: 100vw;
+    height: 100vh;
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: space-evenly;
+
+    flex-wrap: wrap;
+
+
+}
+
+h1{
+    /* color: rgb(226, 57, 57); */
+    background: linear-gradient(150deg, rgba(45,161,184,1) 50%, rgba(218,100,207,1) 76%, rgba(218,100,207,1) 130%);
+    /* background-repeat: no-repeat; */
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 0em 0em 0em 0em;
+
+    
+
+
+}
+
+#input{
+    /* border: 2px solid black; */
+    /* margin: 2em; */
+    padding: .5em 1em .5em 1em;
+    border-radius: 15px;
+    background: linear-gradient(150deg, rgb(109, 167, 179) 50%, rgb(133, 93, 129) 76%, rgb(219, 143, 212) 130%);
+    color: rgb(41, 40, 40);
+    font-size: 18px;
+    outline: none;
+    font-weight: bolder;
+    border: none;
+    font-family:  'Times New Roman', Times, serif;
+}
+#input:hover{
+    
+
+}
+
+#input:focus{
+    background: linear-gradient(150deg, rgba(45,161,184,1) 50%, rgba(218,100,207,1) 76%, rgba(218,100,207,1) 130%);
+    outline: none;
+}
+
+
+::placeholder{
+    color: rgba(5, 5, 4, 0.527);
+
+}
+button{
+    background: linear-gradient(150deg, rgb(109, 167, 179) 50%, rgb(133, 93, 129) 76%, rgb(219, 143, 212) 130%);
+    color: rgb(41, 40, 40);
+    font-size: 18px;
+    font-weight: bolder;
+    padding: .5em .4em .5em .4em;
+    border-radius: 15px;
+    outline: none;
+    border: none;
+
+}
+
+button:hover{
+    cursor: pointer;
+  
+    background: linear-gradient(150deg, rgba(45,161,184,1) 50%, rgba(218,100,207,1) 76%, rgba(218,100,207,1) 130%);
+    
+}
+button:active{
+    border: 1px solid black;
+}
+
+#result{
+    /* border: 2px solid black; */
+    background: linear-gradient(150deg, rgba(45,161,184,1) 50%, rgba(218,100,207,1) 76%, rgba(218,100,207,1) 130%);
+    /* background-repeat: no-repeat; */
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 30px;
+    font-weight: bolder;
+    padding: .5em .4em .5em .4em;
+}
