@@ -51,10 +51,6 @@ h1{
     border: none;
     font-family:  'Times New Roman', Times, serif;
 }
-#input:hover{
-    
-
-}
 
 #input:focus{
     background: linear-gradient(150deg, rgba(45,161,184,1) 50%, rgba(218,100,207,1) 76%, rgba(218,100,207,1) 130%);
